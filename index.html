@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
+  <link rel="shortcut icon" href="./assets/images/favicon.png">
+
+  <title>Martín Reyes Holguín</title>  
+
+  <link href="./main.3f6952e4.css" rel="stylesheet">
+
+  <!-- Mansonry -->
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+
+  <!-- Smooth scrolling script -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 500, function(){
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
+</head>
+
+<body class="minimal">
+
+<!-- Add your content of header -->
+<header>
+  <nav class="navbar  navbar-fixed-top navbar-inverse">
+    <div class="container">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav ">
+          <li><a href="#home" title="">Home</a></li>
+          <li><a href="#about" title="">About me</a></li>
+          <li><a href="#projects" title="">Projects</a></li>
+          <li><a href="#contact" title="">Contact info</a></li>
+        </ul>
+
+
+      </div> 
+    </div>
+  </nav>
+</header>
+<!-- Add your site or app content here -->
+  <!-- Home page -->
+  <div class="hero-full-container background-image-container white-text-container" style="background-image: url('./assets/images/space.jpg')" id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="hero-full-wrapper">
+            <div class="text-content">
+              <h1>Hello,<br>
+                <span id="typed-strings">
+                  <span>I'm Martín,</span>
+                  <span>a student at Harvard</span>
+                  <span>doing Math + CS stuff.</span>
+                </span>
+                <span id="typed"></span>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About me -->
+  <div class="section-container" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="section-container-spacer text-center">
+            <h1 class="h2">About me</h1>
+          </div>
+          
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <div class="row">
+                <div class="col-xs-12 col-md-6">
+                  <h3>Bio</h3>
+                  <p>I grew up in Cali, Colombia 🇨🇴 and graduated from Colegio Bolívar. From there,
+                  I came to Cambridge, MA 🇺🇸, to study Applied Math at Harvard. I am doing
+                  my focus in Computer Science 👨‍💻, my secondary in Statistics, and my
+                  citation in Chinese 🇨🇳.</p>
+                  <h3>Hobbies </h3>
+                  <p>I love dancing salsa, bachata, and merengue 🕺. I try to work out 🏋️‍♂️ at least 3
+                    times a week. I always shower listening to Daddy Yankee, and I may sing
+                    a bit loudly. I love playing the violin 🎻, piano, guitar, or ukulele and
+                    jam with my friends. I like partying, going to the beach 🏖, road tripping, and I always try to take cool pictures 📸 of the cool places i go #photography.
+                  <h3>Interests</h3>
+                  <p> Anything that has to do with applying math to the real world. I like using machine learning to positively impact the world. I like teaching 👨‍🏫 and creating curriculum 📚 to help students develop critical thinking skills. I also enjoy writing proofs, which is why my coursework varies between theoretical and applied classes.
+                  </p>
+
+                  <h3>Useful Links</h3>
+                  <div class="links">
+                    <ul>
+                      <li ><a href="./coursework.html">Coursework</a></li>
+                      <li><a href="./long_resume.pdf" target="_blank">Long Resume</a></li>
+                      <li><a href="./technical_resume.pdf" target="_blank">Technical Resume</a></li>
+                      <li><a href="./teaching_resume.pdf" target="_blank">Teaching Resume</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                  <img src="./assets/images/profil.jpg" class="img-responsive" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+       </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Works -->
+  <div class="section-container" id="projects">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-sm-8 col-sm-offset-2 section-container-spacer">
+          <div class="text-center">
+            <h1 class="h2">Projects</h1>
+            <p>Here are some of the technical projects I have worked on in my research, my classes, my internships, my teaching fellowships, and in my time independently.</p>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+       </div>
+
+      <!-- Image Gallery -->
+      </div>
+      <div class="masonry">
+        <div class="grid">
+          <img src="https://source.unsplash.com/random/1">
+          <div class="grid__body">
+            <div class="relative">
+              <a class="grid__link" target="_blank" href="/" ></a>
+            </div>
+            <div>
+              <span class="grid__tag">#collaborative filtering</span>
+              <span class="grid__tag">#ML4SG</span>
+            </div>
+            <div style="padding-top: 7.5px;">
+              <span class="grid__tag">#matrix factorization</span>
+            </div>
+          </div>
+          <div>
+            <h1 class="grid__title">Recommender Systems Applied to Economic Diversification</h1>
+            <p class="grid__author">Research @ Harvard Growth Lab</p>
+          </div>
+        </div>
+
+        
+        <div class="grid">
+          <img src="https://source.unsplash.com/random/6">
+          <div class="grid__body">
+            <div class="relative">
+              <a class="grid__link" target="_blank" href="/" ></a>
+            </div>
+            <div>
+              <span class="grid__tag">#time series</span>
+              <span class="grid__tag">#ARIMA</span>
+            </div>
+            <div style="padding-top: 7.5px;">
+              <span class="grid__tag">#financial markets</span>
+            </div>
+          </div>
+          <div>
+            <h1 class="grid__title">Models in Financial Markets</h1>
+            <p class="grid__author">Quantitative Analysis @ Citi</p>
+          </div>
+        </div>
+
+        <div class="grid">
+          <img src="https://source.unsplash.com/random/7">
+          <div class="grid__body">
+            <div class="relative">
+              <a class="grid__link" target="_blank" href="/" ></a>
+            </div>
+            <div>
+              <span class="grid__tag">#tag1</span>
+            </div>
+          </div>
+          <div>
+            <h1 class="grid__title">Crime Prediction Models in Mexico </h1>
+            <p class="grid__author">Data Science @ Tierra</p>
+          </div>
+        </div>
+
+        <div class="grid">
+          <img src="https://source.unsplash.com/random/8">
+          <div class="grid__body">
+            <div class="relative">
+              <a class="grid__link" target="_blank" href="/" ></a>
+            </div>
+            <div>
+              <span class="grid__tag">#tag1</span>
+            </div>
+          </div>
+          <div>
+            <h1 class="grid__title">Predicting Classroom Inefficacies</h1>
+            <p class="grid__author">Research @ Pombo Education</p>
+          </div>
+        </div>
+
+        <div class="grid">
+          <img src="https://source.unsplash.com/random/9">
+          <div class="grid__body">
+            <div class="relative">
+              <a class="grid__link" target="_blank" href="/" ></a>
+            </div>
+            <div>
+              <span class="grid__tag">#tag1</span>
+            </div>
+          </div>
+          <div>
+            <h1 class="grid__title">Client-Company Automations</h1>
+            <p class="grid__author">Software Development @ College Scholar</p>
+          </div>
+        </div>
+
+        <div class="grid">
+          <img src="https://source.unsplash.com/random/10">
+          <div class="grid__body">
+            <div class="relative">
+              <a class="grid__link" target="_blank" href="/" ></a>
+            </div>
+            <div>
+              <span class="grid__tag">#nlp</span>
+              <span class="grid__tag">#seq2seq</span>
+              <span class="grid__tag">#deep learning</span>
+            </div>
+            <div style="padding-top: 7.5px;">
+              <span class="grid__tag">#computational linguistics</span>
+            </div>
+          </div>
+          <div>
+            <h1 class="grid__title">Natural Language Questions to ATIS Database SQL Queries</h1>
+            <p class="grid__author">Project @ COMPSCI 187</p>
+          </div>
+        </div>
+
+        <div class="grid">
+          <img src="https://source.unsplash.com/random/11">
+          <div class="grid__body">
+            <div class="relative">
+              <a class="grid__link" target="_blank" href="/" ></a>
+            </div>
+            <div>
+              <span class="grid__tag">#tag1</span>
+            </div>
+          </div>
+          <div>
+            <h1 class="grid__title">MiniML Language Interpreter</h1>
+            <p class="grid__author">Project @ COMPSCI 51</p>
+          </div>
+        </div>
+
+        <div class="grid">
+          <img src="https://source.unsplash.com/random/12">
+          <div class="grid__body">
+            <div class="relative">
+              <a class="grid__link" target="_blank" href="/" ></a>
+            </div>
+            <div>
+              <span class="grid__tag">#tag1</span>
+            </div>
+          </div>
+          <div>
+            <h1 class="grid__title">Math Tutoring Chatbots</h1>
+            <p class="grid__author">Content Specialist @ Lana</p>
+          </div>
+        </div>
+
+        <div class="grid">
+          <img src="https://source.unsplash.com/random/13">
+          <div class="grid__body">
+            <div class="relative">
+              <a class="grid__link" target="_blank" href="/" ></a>
+            </div>
+            <div>
+              <span class="grid__tag">#tag1</span>
+            </div>
+          </div>
+          <div>
+            <h1 class="grid__title">Chuspa: A Life Cycle Assesment Barcode Scanning App</h1>
+            <p class="grid__author">Software Development @ Colegio Bolívar</p>
+          </div>
+        </div>
+
+
+        <div class="grid">
+          <img src="https://source.unsplash.com/random/14">
+          <div class="grid__body">
+            <div class="relative">
+              <a class="grid__link" target="_blank" href="/" ></a>
+            </div>
+            <div>
+              <span class="grid__tag">#tag1</span>
+            </div>
+          </div>
+          <div>
+            <h1 class="grid__title">Arduino Piano and Sound Analyzer</h1>
+
+            <p class="grid__author">Engineering Project @ GENED 1080
+          </div>
+        </div>
+
+        <div class="grid">
+          <img src="https://source.unsplash.com/random/15">
+          <div class="grid__body">
+            <div class="relative">
+              <a class="grid__link" target="_blank" href="/" ></a>
+            </div>
+            <div>
+              <span class="grid__tag">#tag1</span>
+            </div>
+          </div>
+          <div>
+            <h1 class="grid__title">Discrete Math Explorable Explanations</h1>
+            <p class="grid__author">Project @ MATH 152
+          </div>
+        </div>
+
+        <div class="grid">
+          <img src="https://source.unsplash.com/random/16">
+          <div class="grid__body">
+            <div class="relative">
+              <a class="grid__link" target="_blank" href="/" ></a>
+            </div>
+            <div>
+              <span class="grid__tag">#tag1</span>
+            </div>
+          </div>
+          <div>
+            <h1 class="grid__title">Optimizing the Matrix Multiplication Algorithm</h1>
+            <p class="grid__author">Project @ COMPSCI 124
+          </div>
+        </div>
+
+        <div class="grid">
+          <img src="https://source.unsplash.com/random/17">
+          <div class="grid__body">
+            <div class="relative">
+              <a class="grid__link" target="_blank" href="/" ></a>
+            </div>
+            <div>
+              <span class="grid__tag">#tag1</span>
+            </div>
+          </div>
+          <div>
+            <h1 class="grid__title">Bifurcation Analysis of Complex Nonlinear Dynamical System</h1>
+            <p class="grid__author">Project @ APMTH 108
+          </div>
+        </div>
+
+        <div class="grid">
+          <img src="https://source.unsplash.com/random/18">
+          <div class="grid__body">
+            <div class="relative">
+              <a class="grid__link" target="_blank" href="/" ></a>
+            </div>
+            <div>
+              <span class="grid__tag">#tag1</span>
+            </div>
+          </div>
+          <div>
+            <h1 class="grid__title">MST Analysis Project</h1>
+            <p class="grid__author">Project @ COMPSCI 124
+          </div>
+        </div>
+
+        <div class="grid">
+          <img src="https://source.unsplash.com/random/19">
+          <div class="grid__body">
+            <div class="relative">
+              <a class="grid__link" target="_blank" href="/" ></a>
+            </div>
+            <div>
+              <span class="grid__tag">#tag1</span>
+            </div>
+          </div>
+          <div>
+            <h1 class="grid__title">Project Managing Collaborations with CDC</h1>
+            <p class="grid__author">Teaching Fellow @ COMPSCI 96
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+
+  <!-- Contact -->
+  <div class="section-container" id="contact" style="padding-bottom: 150px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="section-container-spacer text-center">
+            <h1 class="h2">Contact info</h1>
+          </div>
+          
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+               <form action="" class="reveal-content">
+                  <div class="row">
+                    <div class="col-md-7">
+                      <div class="form-group">
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                      </div>
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                      </div>
+                      <div class="form-group">
+                        <textarea id="message" class="form-control" rows="5" placeholder="Enter your message"></textarea>
+                      </div>
+                      <input type="button" id="bt" class="btn btn-default btn-lg" onclick="saveFile()" value="Send">
+                    </div>
+                    <div class="col-md-5 address-container">
+                      <ul class="list-unstyled">
+                        <li>
+                          <span class="fa-icon">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                          </span>
+                          + 1 (617) 599 - 6919
+                        </li>
+                        <li>
+                          <span class="fa-icon">
+                            <i class="fa fa-at" aria-hidden="true"></i>
+                          </span>
+                          mreyes@college.harvard.edu
+                        </li>
+                        <li>
+                          <span class="fa-icon">
+                            <i class="fa fa fa-map-marker" aria-hidden="true"></i>
+                          </span>
+                          355 Leverett Mail Center
+                          <br>
+                          <span class="fa-icon">
+                            <i class="fa fa fa-map-marker" aria-hidden="true" style="opacity: 0;"></i>
+                          </span>
+                          28 DeWolfe Street
+                          <br>
+                          <span class="fa-icon">
+                            <i class="fa fa fa-map-marker" aria-hidden="true" style="opacity: 0;"></i>
+                          </span>
+                          Cambridge, MA, 02138
+                        </li>
+                      </ul>
+                      <h3>Follow me on social networks</h3>
+                      <a href="https://www.instagram.com/mreyes2000/" title="" class="fa-icon"  target="_blank">
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                      <a href="https://www.linkedin.com/in/mart%C3%ADn-r-97147b121/" title="" class="fa-icon"  target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                      <a href="https://github.com/mreyes2000" title="" class="fa-icon"  target="_blank">
+                        <i class="fa fa-github"></i>
+                      </a>                
+                    </div>
+                  </div>
+                </form>
+            </div>
+
+          </div>
+         
+       </div>
+      </div>
+    </div>
+  </div>
+
+<footer class="footer-container text-center" style="padding-bottom: 50px">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>© martinreyesholguin.com 2022</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+    let saveFile = () => {
+      
+        // Get the data from each element on the form.
+        const email = document.getElementById('email');
+        const subject = document.getElementById('subject');
+        const message = document.getElementById('message');
+        let data = email.value + " || " + subject.value + " || " + message.value;
+        console.log(data);
+
+        // doesn't work!!! :(
+
+        document.getElementById('email').value = "";
+        document.getElementById('subject').value = "";
+        document.getElementById('message').value = "";
+    }
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+     type();
+     movingBackgroundImage();
+  });
+</script>
+
+
+<script type="text/javascript" src="./main.70a66962.js"></script></body>
+
+</html>
