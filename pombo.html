@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
+  <link rel="shortcut icon" href="./assets/images/favicon.png">
+
+  <title>Martín Reyes Holguín</title>  
+
+  <link href="./main.3f6952e4.css" rel="stylesheet">
+
+  <!-- Mansonry -->
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+
+  <!-- Smooth scrolling script -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 500, function(){
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
+</head>
+
+<body class="minimal">
+
+<!-- Add your content of header -->
+<header>
+  <nav class="navbar  navbar-fixed-top navbar-inverse">
+    <div class="container">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav ">
+          <li><a href="https://martinreyesh.com" title="">Back</a></li>
+        </ul>
+
+
+      </div> 
+    </div>
+  </nav>
+</header>
+<!-- Add your site or app content here -->
+  <!-- About me -->
+  <div class="section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="section-container-spacer text-center">
+            <h1 class="h2">Predicting Classroom Inefficacies</h1>
+          </div>
+          
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <div class="row">
+                <div class="col-xs-12 col-md-12">
+                  
+                  <h3>Software and Data at Pombo Education</h3>
+                  
+                  <p>In the midst of the pandemic, my friends and I co founded a non-profit that aims to provide a data-based platform for colombian teachers in low income schools to monitor their students’ achievement  based on the results of their own teaching style. The app includes sample worksheets, activities, tests, suggested benchmarks, surveys, teacher chat rooms, teaching tips and blog posts. The teachers are able to gauge the effectiveness of their teaching methods through the results of analytical and standardized surveys given to the students on a regular basis. </p>
+
+                  <p>The students get surveys after each unit so they can give feedback to their teachers. This way, teachers can evaluate what’s working and what isn’t and adjust their teaching style/methods to the students’ needs. Gathering data of how students respond to different teaching methods all over the country could really help understand how to improve education in Colombia. We want to gather the data to research about what is actually going on in Colombian classrooms, and how to use these data to improve the quality of education by sharing with policy makers, schools, and research institutions, in hopes of then expanding to other latinamerican countries.</p>
+
+                  <p>My contributions were the creation of the app in Swift, firebase infrastructure, the chatbot assistant, and statistical models from gathered data.</p>
+
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-4 thumb">
+                  <img class="img-responsive" src="./assets/images/feedback-frame.png" alt="">
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-4 thumb">
+                  <img class="img-responsive" src="./assets/images/home-frame.png" alt="">
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-4 thumb">
+                  <img class="img-responsive" src="./assets/images/chat-frame.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+       </div>
+      </div>
+    </div>
+  </div>
+
+<footer class="footer-container text-center" style="padding-bottom: 50px">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>© martinreyesh.com 2022</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+    let saveFile = () => {
+      
+        // Get the data from each element on the form.
+        const email = document.getElementById('email');
+        const subject = document.getElementById('subject');
+        const message = document.getElementById('message');
+        let data = email.value + " || " + subject.value + " || " + message.value;
+        console.log(data);
+
+        // doesn't work!!! :(
+
+        document.getElementById('email').value = "";
+        document.getElementById('subject').value = "";
+        document.getElementById('message').value = "";
+    }
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+     type();
+     movingBackgroundImage();
+  });
+</script>
+
+
+<script type="text/javascript" src="./main.70a66962.js"></script></body>
+
+</html>
