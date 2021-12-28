@@ -211,7 +211,6 @@ td, th {
 }
 
 .masonry .grid:hover img {
-    filter: grayscale(1);
     opacity: 50%;
 
 }
@@ -222,16 +221,26 @@ td, th {
   margin: 10px 0px 10px 0px;
 }
 
+.masonry .grid__author {
+  font-size: 14px;
+  font-weight: 300;
+}
+
 @media (max-width: 560px) {
     .masonry .grid__title {
       font-size: 18px;
     }
 }
 
-.masonry .grid__author {
-  font-size: 14px;
-  font-weight: 300;
+@media (max-device-width:420px) {
+    .masonry .grid__title {
+      font-size: 14px;
+    }
+    .masonry .grid__author {
+      font-size: 10px;
+    }
 }
+
 .masonry .grid__link {
   position: absolute;
   left: 0;
