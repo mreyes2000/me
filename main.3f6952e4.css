@@ -221,6 +221,13 @@ td, th {
   font-weight: bold;
   margin: 10px 0px 10px 0px;
 }
+
+@media (max-width: 560px) {
+    .masonry .grid__title {
+      font-size: 18px;
+    }
+}
+
 .masonry .grid__author {
   font-size: 14px;
   font-weight: 300;
